@@ -120,7 +120,9 @@ func TestMinerDataUnmarshal(t *testing.T) {
 		"messages": [],
 		"uptime": {"secs": 86400, "nanos": 0},
 		"is_mining": true,
-		"pools": []
+		"pools": [],
+		"best_share": 483000,
+		"session_best_share": 12000
 	}`
 	var data MinerData
 	if err := json.Unmarshal([]byte(raw), &data); err != nil {
@@ -143,6 +145,12 @@ func TestMinerDataUnmarshal(t *testing.T) {
 	}
 	if n, ok := data.DeviceInfo.Hardware.BoardCount(); !ok || n != 3 {
 		t.Fatalf("BoardCount = %d, %v", n, ok)
+	}
+	if data.BestShare == nil || *data.BestShare != 483000 {
+		t.Fatalf("best_share = %+v", data.BestShare)
+	}
+	if data.SessionBestShare == nil || *data.SessionBestShare != 12000 {
+		t.Fatalf("session_best_share = %+v", data.SessionBestShare)
 	}
 }
 

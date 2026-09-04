@@ -95,8 +95,8 @@ checksum = "2a4385e2e34eb35d6b3efe798b9eb88096925d87726c0798709bf56d9ed84af3"
 
 [[package]]
 name = "asic-rs"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "anyhow",
  "asic-rs-core",
@@ -146,8 +146,8 @@ dependencies = [
 
 [[package]]
 name = "asic-rs-core"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -162,6 +162,7 @@ dependencies = [
  "strum",
  "tokio",
  "tracing",
+ "ts-rs",
  "url",
 ]
 
@@ -181,8 +182,8 @@ dependencies = [
 
 [[package]]
 name = "asic-rs-firmwares-antminer"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "anyhow",
  "asic-rs-core",
@@ -190,6 +191,7 @@ dependencies = [
  "async-trait",
  "chrono",
  "crc32fast",
+ "digest_auth",
  "diqwest",
  "macaddr",
  "measurements",
@@ -202,8 +204,8 @@ dependencies = [
 
 [[package]]
 name = "asic-rs-firmwares-auradine"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "anyhow",
  "asic-rs-core",
@@ -220,8 +222,8 @@ dependencies = [
 
 [[package]]
 name = "asic-rs-firmwares-avalonminer"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "anyhow",
  "asic-rs-core",
@@ -237,8 +239,8 @@ dependencies = [
 
 [[package]]
 name = "asic-rs-firmwares-bitaxe"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "anyhow",
  "asic-rs-core",
@@ -255,8 +257,8 @@ dependencies = [
 
 [[package]]
 name = "asic-rs-firmwares-braiins"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "anyhow",
  "asic-rs-core",
@@ -275,8 +277,8 @@ dependencies = [
 
 [[package]]
 name = "asic-rs-firmwares-elphapex"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "anyhow",
  "asic-rs-core",
@@ -294,8 +296,8 @@ dependencies = [
 
 [[package]]
 name = "asic-rs-firmwares-epic"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "anyhow",
  "asic-rs-core",
@@ -317,8 +319,8 @@ dependencies = [
 
 [[package]]
 name = "asic-rs-firmwares-futurebit"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "anyhow",
  "asic-rs-core",
@@ -335,8 +337,8 @@ dependencies = [
 
 [[package]]
 name = "asic-rs-firmwares-luxminer"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "anyhow",
  "asic-rs-core",
@@ -351,8 +353,8 @@ dependencies = [
 
 [[package]]
 name = "asic-rs-firmwares-marathon"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "anyhow",
  "asic-rs-core",
@@ -370,8 +372,8 @@ dependencies = [
 
 [[package]]
 name = "asic-rs-firmwares-nerdaxe"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "anyhow",
  "asic-rs-core",
@@ -388,8 +390,8 @@ dependencies = [
 
 [[package]]
 name = "asic-rs-firmwares-proto"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "anyhow",
  "asic-rs-core",
@@ -407,8 +409,8 @@ dependencies = [
 
 [[package]]
 name = "asic-rs-firmwares-sealminer"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "anyhow",
  "asic-rs-core",
@@ -425,8 +427,8 @@ dependencies = [
 
 [[package]]
 name = "asic-rs-firmwares-vnish"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "anyhow",
  "asic-rs-core",
@@ -443,8 +445,8 @@ dependencies = [
 
 [[package]]
 name = "asic-rs-firmwares-volcminer"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "anyhow",
  "asic-rs-core",
@@ -463,8 +465,8 @@ dependencies = [
 
 [[package]]
 name = "asic-rs-firmwares-whatsminer"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "aes",
  "anyhow",
@@ -487,157 +489,194 @@ dependencies = [
 ]
 
 [[package]]
+name = "asic-rs-macros"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
 name = "asic-rs-makes-antminer"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "asic-rs-core",
+ "asic-rs-macros",
  "serde",
  "serde_json",
  "strum",
+ "ts-rs",
 ]
 
 [[package]]
 name = "asic-rs-makes-auradine"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "asic-rs-core",
+ "asic-rs-macros",
  "serde",
  "serde_json",
  "strum",
+ "ts-rs",
 ]
 
 [[package]]
 name = "asic-rs-makes-avalon"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "asic-rs-core",
+ "asic-rs-macros",
  "serde",
  "serde_json",
  "strum",
+ "ts-rs",
 ]
 
 [[package]]
 name = "asic-rs-makes-bitaxe"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "asic-rs-core",
+ "asic-rs-macros",
  "serde",
  "serde_json",
  "strum",
+ "ts-rs",
 ]
 
 [[package]]
 name = "asic-rs-makes-braiins"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "asic-rs-core",
+ "asic-rs-macros",
  "serde",
  "serde_json",
  "strum",
+ "ts-rs",
 ]
 
 [[package]]
 name = "asic-rs-makes-elphapex"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "asic-rs-core",
+ "asic-rs-macros",
  "serde",
  "serde_json",
  "strum",
+ "ts-rs",
 ]
 
 [[package]]
 name = "asic-rs-makes-epic"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "asic-rs-core",
+ "asic-rs-macros",
  "serde",
  "serde_json",
  "strum",
+ "ts-rs",
 ]
 
 [[package]]
 name = "asic-rs-makes-futurebit"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "asic-rs-core",
+ "asic-rs-macros",
  "serde",
  "serde_json",
  "strum",
+ "ts-rs",
 ]
 
 [[package]]
 name = "asic-rs-makes-marathon"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "asic-rs-core",
  "serde",
  "serde_json",
  "strum",
+ "ts-rs",
 ]
 
 [[package]]
 name = "asic-rs-makes-nerdaxe"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "asic-rs-core",
+ "asic-rs-macros",
  "serde",
  "serde_json",
  "strum",
+ "ts-rs",
 ]
 
 [[package]]
 name = "asic-rs-makes-proto"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "asic-rs-core",
+ "asic-rs-macros",
  "serde",
  "serde_json",
  "strum",
+ "ts-rs",
 ]
 
 [[package]]
 name = "asic-rs-makes-sealminer"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "asic-rs-core",
+ "asic-rs-macros",
  "serde",
  "serde_json",
  "strum",
+ "ts-rs",
 ]
 
 [[package]]
 name = "asic-rs-makes-volcminer"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "asic-rs-core",
+ "asic-rs-macros",
  "serde",
  "serde_json",
  "strum",
+ "ts-rs",
 ]
 
 [[package]]
 name = "asic-rs-makes-whatsminer"
-version = "0.7.2"
-source = "git+https://github.com/256foundation/asic-rs?rev=4e651726a779b5addc8091c65f9f09ab61108103#4e651726a779b5addc8091c65f9f09ab61108103"
+version = "0.8.0"
+source = "git+https://github.com/adamdecaf/asic-rs?rev=c6a86b718e0925c2ddf3c9eac31bef4c299cae45#c6a86b718e0925c2ddf3c9eac31bef4c299cae45"
 dependencies = [
  "asic-rs-core",
+ "asic-rs-macros",
  "serde",
  "serde_json",
  "strum",
+ "ts-rs",
 ]
 
 [[package]]
@@ -2405,6 +2444,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "termcolor"
+version = "1.4.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "06794f8f6c5c898b3275aebefa6b8a1cb24cd2c6c79397ab15774837a0bc5755"
+dependencies = [
+ "winapi-util",
+]
+
+[[package]]
 name = "thiserror"
 version = "2.0.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2639,6 +2687,28 @@ name = "try-lock"
 version = "0.2.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e421abadd41a4225275504ea4d6566923418b7f05506fbc9c0fe86ba7396114b"
+
+[[package]]
+name = "ts-rs"
+version = "12.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "756050066659291d47a554a9f558125db17428b073c5ffce1daf5dcb0f7231d8"
+dependencies = [
+ "thiserror",
+ "ts-rs-macros",
+]
+
+[[package]]
+name = "ts-rs-macros"
+version = "12.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "38d90eea51bc7988ef9e674bf80a85ba6804739e535e9cab48e4bb34a8b652aa"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+ "termcolor",
+]
 
 [[package]]
 name = "typenum"

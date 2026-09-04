@@ -11,7 +11,9 @@ name = "asic_rs_ffi"
 crate-type = ["cdylib", "staticlib"]
 
 [dependencies]
-asic-rs = { git = "https://github.com/256foundation/asic-rs", rev = "4e651726a779b5addc8091c65f9f09ab61108103", default-features = true }
+# 256foundation/asic-rs#351 (best_share / session_best_share). Switch back to
+# 256foundation after that PR merges.
+asic-rs = { git = "https://github.com/adamdecaf/asic-rs", rev = "c6a86b718e0925c2ddf3c9eac31bef4c299cae45", default-features = true }
 tokio = { version = "1", features = ["rt-multi-thread", "macros", "sync"] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"

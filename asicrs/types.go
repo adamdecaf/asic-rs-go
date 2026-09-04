@@ -115,12 +115,12 @@ type ChipData struct {
 
 // BoardData is per-hashboard telemetry.
 type BoardData struct {
-	Position              uint8      `json:"position"`
-	Hashrate              *HashRate  `json:"hashrate"`
-	ExpectedHashrate      *HashRate  `json:"expected_hashrate"`
-	BoardTemperature      *float64   `json:"board_temperature"`
-	InletChipTemperature  *float64   `json:"inlet_chip_temperature"`
-	OutletChipTemperature *float64   `json:"outlet_chip_temperature"`
+	Position              uint8     `json:"position"`
+	Hashrate              *HashRate `json:"hashrate"`
+	ExpectedHashrate      *HashRate `json:"expected_hashrate"`
+	BoardTemperature      *float64  `json:"board_temperature"`
+	InletChipTemperature  *float64  `json:"inlet_chip_temperature"`
+	OutletChipTemperature *float64  `json:"outlet_chip_temperature"`
 	// Legacy / alternate names some firmwares may surface via JSON aliases.
 	IntakeTemperature *float64   `json:"intake_temperature"`
 	OutletTemperature *float64   `json:"outlet_temperature"`
@@ -358,6 +358,8 @@ type MinerData struct {
 	Uptime                 *DurationSecs   `json:"uptime"`
 	IsMining               bool            `json:"is_mining"`
 	Pools                  []PoolGroupData `json:"pools"`
+	BestShare              *float64        `json:"best_share"`
+	SessionBestShare       *float64        `json:"session_best_share"`
 }
 
 // HashrateTH returns current hashrate in TH/s, or 0 if unknown.
@@ -410,10 +412,10 @@ type TuningConfig struct {
 //	{"mode":"Auto","target_temp":65.0,"idle_speed":30}
 //	{"mode":"Manual","fan_speed":80}
 type FanConfig struct {
-	Mode        string  `json:"mode"` // "Auto" or "Manual"
-	TargetTemp  *float64 `json:"target_temp,omitempty"`
-	IdleSpeed   *uint64  `json:"idle_speed,omitempty"`
-	FanSpeed    *uint64  `json:"fan_speed,omitempty"`
+	Mode       string   `json:"mode"` // "Auto" or "Manual"
+	TargetTemp *float64 `json:"target_temp,omitempty"`
+	IdleSpeed  *uint64  `json:"idle_speed,omitempty"`
+	FanSpeed   *uint64  `json:"fan_speed,omitempty"`
 }
 
 // NewFanConfigAuto builds an automatic fan config.
