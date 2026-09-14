@@ -1,8 +1,28 @@
-# asic-rs-go
+# asic-rs-go (archived)
+
+**This repository is archived and no longer maintained.**
+
+Go bindings for [asic-rs](https://github.com/256foundation/asic-rs) now live
+**in-tree** in that repo as
+[`github.com/256foundation/asic-rs/go/asic_go`](https://github.com/256foundation/asic-rs/tree/master/go/asic_go).
+
+- Landing PR: [256foundation/asic-rs#364](https://github.com/256foundation/asic-rs/pull/364)
+- Build notes: [`go/README.md`](https://github.com/256foundation/asic-rs/blob/master/go/README.md) (`make -C go ffi`, `CGO_ENABLED=1`)
+
+```go
+import "github.com/256foundation/asic-rs/go/asic_go"
+
+factory := asic_go.NewFactory()
+defer factory.Close()
+```
+
+The rest of this README describes the last standalone snapshot (`github.com/adamdecaf/asic-rs-go/asicrs`) and is not maintained.
+
+---
 
 Go bindings for [asic-rs](https://github.com/256foundation/asic-rs) — discover, monitor, and control ASIC miners from Go.
 
-This repository is a **library** meant to be imported by larger Go services (fleet monitors, dashboards, ops tools). It is not a standalone CLI product, though small examples are included.
+This repository was a **library** meant to be imported by larger Go services (fleet monitors, dashboards, ops tools). It is not a standalone CLI product, though small examples are included.
 
 ## Architecture
 
